@@ -71,14 +71,9 @@
 	font-family: monospace;
 	font-weight: bold;
 	font-size: 5em;
-	margin-top: 20%;
-	 margin-left: 20%;
-}
-#demo{
-	font-family: monospace;
-	font-weight: bold;
-	font-size: 5em;
-	margin-bottom: 15%;
+	margin-top: 1%;
+	text-align: center;
+	
 }
 #messages{
 	font-family: monospace;
