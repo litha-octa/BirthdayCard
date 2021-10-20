@@ -77,6 +77,12 @@
 #demo{
 	font-family: monospace;
 	font-weight: bold;
+	font-size: 5em;
+	margin-bottom: 15%;
+}
+#messages{
+	font-family: monospace;
+	font-weight: bold;
 	font-size: 3em;
 }
 #box{
