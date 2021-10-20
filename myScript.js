@@ -1,5 +1,6 @@
 function menampilkan_nama() {
-//let nama = document.getElementById("form1").name;
-  let nama = document.getElementById("nama").value;
-  document.getElementById("demo").innerHTML = `Welcome ${nama}`;
+    let hbd = document.getElementById("welcome").value;
+    let nama = document.getElementById("nama").value;
+        document.getElementById('welcome').innerHTML = " Happy Birthday";
+        document.getElementById("demo").innerHTML = `${nama}`;
 }
