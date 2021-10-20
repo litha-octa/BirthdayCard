@@ -8,25 +8,29 @@
 </head>
 <body id="bg">
 	<table id="box" border="0">
-		<text class="welcome">Welcome Visitor</text>
+		<text class="welcome" id="demo">Welcome Visitor</text>
 		<tr  class="inputName">
+			
 			<td colspan = "2" class="optext">
 				Siapa Nama Anda ?
 			</td>
 		</tr>
+		<form id="form1" name="form1" onsubmit="return false">
 		<tr class="inputName">
 			<td>
-				<input text class="textbox"/>
+				<input text class="textbox" id ="nama"/>
 			</td>
 			<td>
-				<button class="btn">
+				<button type ="button" class="btn" onclick="menampilkan_nama()">
 						Simpan
 				</button>
 			</td>
 		</tr>
+		</form>
 		<tr  class="inputName">
 			<td colspan = "2" class="optext">
 			</td></tr>
 	</table>
+<script src="myScript.js"></script>
 </body>
 </html>
