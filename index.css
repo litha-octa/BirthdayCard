@@ -110,14 +110,14 @@
 .btn{
 	background-color: palegreen;
 	border: none;
-	padding: 5px;
+	padding: 2vw;
 	border-radius: 5px;
 	color:black;
 	font-family: monospace;
 	font-weight: bold;
 	font-size: 2em;
 	height: 10vw;
-	width: 10vw;
+	width: 13vw;
 	margin-left:2%;
 }
 }
