@@ -35,5 +35,5 @@ function menampilkan_nama() {
   ).innerHTML = ` ${myDays[thisDay]},  tanggal ${day} ${months[month]}.
                     Selamat ulang tahun,
                     semoga panjang umur, sehat selalu. 
-                    Otw makan-makan nich....<br><br><br>;
+                    Otw makan-makan nich....<br><br><br>`;
 }
