@@ -33,7 +33,7 @@ function menampilkan_nama() {
   document.getElementById(
     "messages"
   ).innerHTML = ` ${myDays[thisDay]},  tanggal ${day} ${months[month]}.
-                    Selamat ulang tahun,n\ n/
+                    Selamat ulang tahun,
                     semoga panjang umur, sehat selalu. 
                     Otw makan-makan nich....<br><br><br>`;
 }
