@@ -32,14 +32,8 @@ function menampilkan_nama() {
   document.getElementById("welcome").innerHTML = ` Happy Birthday<br>${nama}` ;
   document.getElementById(
     "messages"
-  ).innerHTML = ` Pada hari ${myDays[thisDay]},  tanggal ${day} ${months[month]}.Selamat ulang tahun anak bengal,
-                    nambah umur makin nurut dibilangin sama mama,
-                    kalo dicariin mama jangan ngumpet di WC.
-                    Belajar yang rajin, jangan maen FF mulu.
-                    Semoga bisa lanjut sekolah di SMP 220.
-                    Semoga ulang tahun gini akhlaknya jadi nambah,
-                    soalnya lu adek ga punya akhlak.
-                    Yang sopan sama kakak, kalo disuruh jangan nolak.
+  ).innerHTML = ` ${myDays[thisDay]},  tanggal ${day} ${months[month]}.
+                    Selamat ulang tahun,
                     semoga panjang umur, sehat selalu. 
-                    Otw makan-makan nich....<br><br><br> -Dari : Kakak yg jahat`;
+                    Otw makan-makan nich....<br><br><br>;
 }
